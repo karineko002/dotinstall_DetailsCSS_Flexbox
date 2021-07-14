@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+header {
+  background: pink;
+}
+main {
+  background: skyblue;
+  flex: 1;
+}
+aside {
+  background: orange;
+  width: 100px;
+}
+footer {
+  background:silver;
+}
+/* container */
+.container {
+  display: flex;
+}
