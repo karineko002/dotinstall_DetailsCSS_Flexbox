@@ -1,23 +1,13 @@
-header{
+section {
   display: flex;
-  /* justify-content: space-between; */
+  margin-bottom: 60px;
 }
-nav {
-  margin-left: auto;
+
+.pic {
+  width: 180px;
+  margin-right: 32px;
 }
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-nav a{
-  /* background: pink; */
-  width: 100px;
-  text-align: center;
-  line-height: 64px;
-  display: block;
-}
-nav a:hover {
-  background: #eee;
+
+.desc {
+  flex: 1;
 }
